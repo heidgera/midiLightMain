@@ -1,5 +1,5 @@
 module.exports = {
-  appRepo: 'https://github.com/heidgera/midiLightMirror',
+  appRepo: 'https://github.com/heidgera/midiLightMain',
   showDevTools: true,
   preventStartup: false,
   // windows: [
