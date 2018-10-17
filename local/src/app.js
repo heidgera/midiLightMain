@@ -252,7 +252,7 @@ obtain(obtains, (midi, { pixels, rainbow, Color }, { fileServer }, { wss }, fs, 
       var newIn = null;
       console.log(`Looking for ${data.name}`);
       mid.devices.forEach((el)=> {
-        if (el.name == request.name && !newIn) {
+        if (el.name == data.name && !newIn) {
           newIn = el;
           console.log(`Connecting to ${data.name}`);
         }
