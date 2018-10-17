@@ -263,7 +263,7 @@ obtain(obtains, (midi, { pixels, rainbow, Color }, { fileServer }, { wss }, fs, 
         fs.mkdirSync(settingsDir);
       }
 
-      fs.writeFileSync(settingsDir + '/MIDI_Device.json', JSON.stringify(request));
+      fs.writeFileSync(settingsDir + '/MIDI_Device.json', JSON.stringify(data));
     }
   });
 
